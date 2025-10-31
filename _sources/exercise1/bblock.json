@@ -1,11 +1,12 @@
 {
   "$schema": "metaschema.yaml",
-  "name": "My Schema",
-  "abstract": "An example schema defining the set of properties of any type of object.",
+  "name": "Compo",
+  "highlighted": true,
+  "abstract": "Refactor into ontology + rules, schema and binding profile",
   "status": "under-development",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
-  "itemClass": "schema",
-  "register": "ogc-building-block-register",
+  "itemClass": "model",
+  "register": "building-blocks-tutorial",
   "version": "0.1",
   "dateOfLastChange": "2023-04-05",
   "link": "https://github.com/opengeospatial/bblock-template",
@@ -17,5 +18,7 @@
   ],
   "maturity": "mature",
   "scope": "unstable",
-  "tags": ["templates"]
+  "tags": ["building-blocks-tutorial",
+    "templates"
+  ]
 }
